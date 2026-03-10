@@ -15,4 +15,4 @@ COPY aero_inspector/ ./aero_inspector/
 EXPOSE 8080
 
 # Launch the ADK web server — use shell form so $PORT is expanded
-CMD adk web --host 0.0.0.0 --port ${PORT:-8080} aero_inspector
+CMD adk web --host 0.0.0.0 --port ${PORT:-8080} .
