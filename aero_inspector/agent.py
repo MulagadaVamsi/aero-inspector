@@ -238,8 +238,8 @@ The technician may interrupt you at any time. Handle gracefully:
 
 root_agent = Agent(
     name="aero_inspector",
-    # gemini-2.0-flash-live-001 required for Multimodal Live API (bidiGenerateContent)
-    model="gemini-2.0-flash-live-001",
+    # gemini-2.0-flash for text/image chat; Live API (mic/camera) requires Vertex AI
+    model="gemini-2.0-flash",
     description=(
         "Aero-Inspector: A proactive, multimodal industrial safety and "
         "maintenance supervisor agent. Autonomously monitors live video/audio "
