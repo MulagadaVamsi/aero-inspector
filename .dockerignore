@@ -1,0 +1,13 @@
+# Ignore unnecessary files in Docker builds
+__pycache__/
+*.pyc
+*.pyo
+.git/
+.gitignore
+*.md
+!README.md
+.env.local
+.venv/
+venv/
+implementation_plan.md
+architecture_diagram.png

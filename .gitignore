@@ -1,0 +1,21 @@
+# Environment
+.env
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ADK artifacts
+.adk/
+
+# Test images
+*.png
+
+# Gemini brain
+.gemini/

@@ -1,0 +1,12 @@
+# Render Blueprint — one-click deploy for Aero-Inspector
+# https://render.com/docs/blueprint-spec
+services:
+  - type: web
+    name: aero-inspector
+    runtime: docker
+    plan: free
+    envVars:
+      - key: GOOGLE_GENAI_USE_VERTEXAI
+        value: "FALSE"
+      - key: GOOGLE_API_KEY
+        sync: false  # User sets this manually in Render dashboard

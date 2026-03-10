@@ -1,0 +1,11 @@
+# Aero-Inspector — Python Dependencies
+# =====================================
+# Core
+google-adk>=1.0.0
+
+# Google Cloud Services (for production tool integrations)
+google-cloud-firestore>=2.16.0
+google-cloud-storage>=2.14.0
+
+# Vertex AI (for RAG / embeddings in production)
+google-cloud-aiplatform>=1.38.0
